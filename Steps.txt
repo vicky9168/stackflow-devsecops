@@ -989,7 +989,7 @@ pipeline {
                 Build Number: ${env.BUILD_NUMBER}<br/>
                 Build URL: ${env.BUILD_URL}<br/>
                 """,
-                to: 'demo@gmail.com',
+                to: '<YOUR_EMAIL>',
                 attachmentsPattern: 'trivyfs.txt,trivyimage.txt'
             )
         }
